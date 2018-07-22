@@ -1,0 +1,14 @@
+[package]
+name = "shutdown"
+version = "0.1.0"
+authors = ["Danny Browning <danny.browning@protectwise.com>"]
+
+[dependencies]
+futures = "^0.1"
+log = "^0.4"
+tokio = "^0.1"
+tokio-signal = "^0.2"
+
+[dev-dependencies]
+env_logger = "*"
+nix = "^0.11"
